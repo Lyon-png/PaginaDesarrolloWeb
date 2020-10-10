@@ -1,0 +1,77 @@
+* {margin:0
+	padding:0;}
+
+body {background:url(../img/fondo.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100%;}
+
+      h2{font-size:60px;}
+
+p {height: 120px;
+   width:50%;
+   background: #f2f2f2;
+   margin: 30px 60px;
+   padding: 40px;
+   border: 10px solid #fff;}
+
+
+
+#logo img {width:20%;}
+
+#box img {
+          height: 70%;
+          position: relative;
+          bottom: 500px;
+          right: 50px;
+          float:right;
+          overflow:hidden;}
+
+#BEB img {
+          height: 70%;
+          position: relative;
+          bottom: 900px;
+          right: 50px;
+          float:right;
+          overflow:hidden;}
+
+#Edel img {
+          height: 70%;
+          position: relative;
+          bottom: 300px;
+          right: -250px;
+          float:right;
+          overflow:hidden;}
+
+
+header {
+	    width: "90%";
+        max-width: 1000px;
+        margin: 20px auto;}
+
+header nav {background: #FDFF79;
+	        overflow: hidden;}
+
+header nav ul {list-style: none;}
+header nav ul li {float:left;}
+header nav ul li a {padding: 10px 0px;
+                    display:block;
+                    margin-right: 60px;
+                    color:black;
+                    text-decoration: none;
+                    text-align: center;}
+header nav ul li a:hover{background: #FEFFC2;}
+
+footer {background: black;
+        color: white;
+        clear: both;
+        padding: 10px 0;
+        text-align: center;}
+@media (max width: 768px){
+       header{heigt:auto;
+       	border-bottom: 
+       	display:block;
+
+
+       }
+}
